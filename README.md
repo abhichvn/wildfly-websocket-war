@@ -1,5 +1,5 @@
 # wildfly-websocket-war
-sample war file
+Installation steps:
 
 1) Download wildfly-16 from below link and unzip it:
 https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
