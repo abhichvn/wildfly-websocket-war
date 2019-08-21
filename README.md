@@ -20,7 +20,7 @@ export JBOSS_HOME=<WILDFLY-FOLDER-LOCATION>/wildfly-16.0.0.Final
 
 Issue:
 - Once click on "Open connection" there is error in browser console as 404 and in server log there is following error
---------------------------------------------------------------
+
 21:12:02,163 INFO  [io.undertow.servlet] (default task-4) 
 ActionController::RoutingError (No route matches [GET] "/websocket/helloName"):
   gems/gems/actionpack-3.2.22/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
@@ -38,7 +38,6 @@ ActionController::RoutingError (No route matches [GET] "/websocket/helloName"):
   gems/gems/railties-3.2.22/lib/rails/engine.rb:484:in `call'
   gems/gems/railties-3.2.22/lib/rails/application.rb:231:in `call'
   classpath:/rack/handler/servlet.rb:22:in `call'
--------------------------------------------------------------------- 
 
 
 Note:
