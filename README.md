@@ -40,6 +40,7 @@ ActionController::RoutingError (No route matches [GET] "/websocket/helloName"):
   classpath:/rack/handler/servlet.rb:22:in `call'
 
 
+
 Note:
 In server log file the you can find websocket serverEndPoint is added as follows
 => Adding annotated server endpoint class org.jboss.as.quickstarts.websocket_hello.HelloName for path /websocket/helloName
