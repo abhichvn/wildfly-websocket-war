@@ -18,6 +18,9 @@ export JBOSS_HOME=<WILDFLY-FOLDER-LOCATION>/wildfly-16.0.0.Final
 
 6) Application will be available at http://localhost:8080/myapp/
 
+What I am trying to achieve:
+- Use websockets implemented in java server JSR 356 in jruby rails application using wildfly-16 as application server
+
 Issue:
 - Once click on "Open connection" there is error in browser console as 404 and in server log there is following error
 
