@@ -45,8 +45,8 @@ ActionController::RoutingError (No route matches [GET] "/websocket/helloName"):
 
 
 Note:
-In server log file the you can find websocket serverEndPoint is added as follows
-- Adding annotated server endpoint class org.jboss.as.quickstarts.websocket_hello.HelloName for path /websocket/helloName
+- In server log file the you can find websocket serverEndPoint is added as 
+"Adding annotated server endpoint class org.jboss.as.quickstarts.websocket_hello.HelloName for path /websocket/helloName"
 
-Websocket endpoint is in lib/websocket-endpoint.jar there is only one annotated class, source code can be founnd at
-- https://github.com/wildfly/quickstart/blob/16.0.0.Final/websocket-hello/src/main/java/org/jboss/as/quickstarts/websocket_hello/HelloName.java
+- Websocket endpoint is in lib/websocket-endpoint.jar there is only one annotated class, source code can be founnd at
+  https://github.com/wildfly/quickstart/blob/16.0.0.Final/websocket-hello/src/main/java/org/jboss/as/quickstarts/websocket_hello/HelloName.java
